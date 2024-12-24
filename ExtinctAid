@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExtinctAid - Save Endangered Animals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ExtinctAid</h1>
+    <p>Join us in saving endangered animals</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#animals">Endangered Animals</a>
+    <a href="#buy-token">Buy Token</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="hero">
+    <h2>Protect. Preserve. Participate.</h2>
+</div>
+
+<div class="container" id="home">
+    <h2>Welcome to ExtinctAid</h2>
+    <p>ExtinctAid is dedicated to protecting endangered species worldwide. By leveraging blockchain technology, we aim to create a sustainable future for our planet's wildlife.</p>
+</div>
+
+<div class="container" id="airdrops">
+    <h2>Airdrop System</h2>
+    <p>Participate in our token airdrop! Enter your wallet address below to claim your free ExtinctAid tokens and join our community of conservationists.</p>
+    <form action="/submit-airdrop" method="POST">
+        <label for="wallet">Wallet Address:</label><br>
+        <input type="text" id="wallet" name="wallet" required><br><br>
+        <button type="submit">Claim Tokens</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 ExtinctAid. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
